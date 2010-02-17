@@ -20,6 +20,14 @@ This search was calculated as such: 2<sup>(4 + 1)</sup>.
 Here you can see that a match at the start of a word ranks much higher than in
 the middle. More examples can be found in the [accompanying tests][tests].
 
+## Usage
+
+Mimetic Poly-Alloy uses the same API as Quicksilver. Drop the JavaScript file on
+your site and use the `score` method on a string of keywords. Give it a string
+to search for and it will return a score as a float.
+
+    list_of_keywords.score(search)
+
 ## Note on Patches/Pull Requests
  
 * Fork the project.
