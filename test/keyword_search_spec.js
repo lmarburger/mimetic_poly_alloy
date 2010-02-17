@@ -21,7 +21,7 @@ test("Match the beginning of a word", function() {
   equals(input.score("teth"), 15.2, "2 2-character matches");
   equals(input.score("tiat"), 13.756, "4 1-character matches");
 
-  // 4 matching characters.
+  // 2 matching characters.
   equals(input.score("th"), 8.0, "2-character match");
   equals(input.score("ti"), 7.6, "2 1-character matches");
 });
